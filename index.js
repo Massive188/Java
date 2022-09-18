@@ -31,13 +31,7 @@ async function main()
             })
             
         }
-        /*
-            We wrap our calls to functions that interact with the database in a try/catch 
-            statement so that we handle any unexpected errors.
-
-            Lim, Greg. Beginning MERN Stack: Build and Deploy a Full Stack MongoDB
-            ,Express, React, Node.js App.
-        */
+        
         catch(e)
         {
             console.error(0);
