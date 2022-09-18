@@ -9,7 +9,7 @@ async function main()
     dotenv.config()
 
         // We create an instance of MongoClient and pass in the database URI.
-        const client = new mongodb.MongoClient(process.env.MOVIEREVIEWS_DB_URI)
+        const client = new mongodb.MongoClient(process.env.MOVIEREVIEWS_DB_URI) // getting data from server.
         
         // we retrieve the port from our environment variable. if we can't access it, we
         // use port 8000.
